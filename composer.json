@@ -1,0 +1,31 @@
+{
+    "name": "cogative/jvzoo",
+    "description": "A Laravel package to interface with JVZoo's API and IPN service.",
+    "keywords": ["jvzoo", "laravel", "billing", "payment", "affiliates"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ben Magee",
+            "email": "bmagee@cogative.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/database": "~5.1",
+        "illuminate/support": "~5.1",
+        "nesbot/carbon": "~1.0",
+    },
+    "require-dev": {
+        "illuminate/routing": "~5.1",
+        "illuminate/http": "~5.1",
+        "illuminate/view": "~5.1",
+        "mockery/mockery": "~0.9",
+        "phpunit/phpunit": "~4.0",
+        "vlucas/phpdotenv": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cogative\\JVZoo\\": "src/"
+        }
+    }
+}
