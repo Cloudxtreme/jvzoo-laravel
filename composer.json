@@ -1,5 +1,5 @@
 {
-    "name": "cogative/jvzoo",
+    "name": "cogative/jvzoo-laravel",
     "description": "A Laravel package to interface with JVZoo's API and IPN service.",
     "keywords": ["jvzoo", "laravel", "billing", "payment", "affiliates"],
     "license": "MIT",
@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Cogative\\JVZoo\\": "src/"
+            "Cogative\\JVZooLaravel\\": "src/"
         }
     }
 }
